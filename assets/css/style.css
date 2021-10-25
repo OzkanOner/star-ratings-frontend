@@ -1,0 +1,103 @@
+*{
+    outline: none !important; /* For unwanted blue border */
+}
+
+/* Bootstrap's elements stylings */
+.btn.btn-light{
+    background-color: #f8f6f2;
+}
+
+.navbar{
+    background-color: #f8f6f2 !important;
+}
+
+.card{
+    border: 1px solid #e8e5dd;
+    border-top: 3px solid #c9c2b1;
+}
+
+.card .card-header{
+    background-color: #f8f6f2;
+    border-bottom: none;
+}
+
+.modal-content{
+    padding: 25px;
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+.modal-header,
+.modal-footer{
+    border: none;
+    justify-content: flex-start;
+}
+
+/* Other stylings */
+.product{
+    background: #f8f6f2;
+    padding: 10px;
+    border: 1px solid #e8e5dd;
+    border-radius: 10px;
+}
+
+.product .product-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.product-detail .product-image{
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.stars{
+    font-size: 0;
+    display: inline-block;
+}
+
+.stars i {
+    display: inline-block;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #e0e0e0;
+    text-shadow: 0px .5px 0px #c9c9c9;
+}
+
+.stars i.active{
+    color: #fece6e;
+    text-shadow: 0px .5px 0px #e3b965;
+}
+
+.stars.input{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+}
+
+.stars.input i{
+    cursor: pointer;
+}
+
+.stars.input > i.checked:before,
+.stars.input > i.checked ~ i:before {
+    color: #fece6e;
+    text-shadow: 0px .5px 0px #e3b965;
+}
+
+.stars.input > i:hover:before,
+.stars.input > i:hover ~ i:before {
+    color: #fece6e;
+    text-shadow: 0px .5px 0px #e3b965;
+}
+
+.review .review-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+}
